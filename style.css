@@ -1,6 +1,7 @@
 *{
 margin: 0%;
 padding: 0%;
+box-sizing: border-box;
 }
 /*share section */
 
@@ -49,19 +50,32 @@ padding: 0%;
   list-style: none;
 
 }
-.navber ul li:hover{
-  background-color: rgb(9, 1, 255);
-}
-/*hero_section*/
-/*banar section*/
-.banar_text{
-text-align: center;
-font-size: bold;
-}
-.hero_section{
-  background-image: url(./Images/assets/hero-bg.png);
+/*hero section */
+.hero_banar{
+  background: url("/Images/assets/hero-bg.png");
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-background-size: cover;
-height: 1363px;
+  background-size: cover;
+  height: 533px;
+}
+.hero_content{ 
+  p
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;}
+
+ .hero_content h1{
+ font-size: 65px;
+  font-weight: 770;
+  color: #fff;
+ }
+.hero_content h1 span{
+  color: green;
+}
+.hero_content p{
+   font-size: 18px;
+  color: #d1d5db;
+  line-height: 24px;
+   margin-bottom: 30px;
 }
