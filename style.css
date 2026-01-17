@@ -1,0 +1,67 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+/*share section */
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.btn{
+  background-color: rgb(74, 148, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  font-size: 600;
+  width: 164px;
+  height: 44px;
+  font-size: 16px;
+  text-align: center;
+}
+.btn:hover{
+  background-color: blue;
+}
+.color-green{
+  color: green;
+}
+/*navber start*/
+.navber{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 120px;
+  background-color:#FFFFFF;
+
+}
+.navber ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navber ul li{
+  list-style: none;
+
+}
+.navber ul li:hover{
+  background-color: rgb(9, 1, 255);
+}
+/*hero_section*/
+/*banar section*/
+.banar_text{
+text-align: center;
+font-size: bold;
+}
+.hero_section{
+  background-image: url(./Images/assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+background-size: cover;
+height: 1363px;
+}
