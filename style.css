@@ -108,6 +108,7 @@ font-weight: 600;
 }
 .b2{
   border: 1px solid rgb(255, 255, 255);
+ 
 }
 .b2 a{
  text-decoration: none;
@@ -117,4 +118,52 @@ font-weight: 600;
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
+  
+}
+.b2 a:hover{
+  background-color: #f0e9e9c7;
+}
+/*note*/
+.note{
+  text-align: center;
+  padding: 30px
+}
+.note p{
+  gap: 16px;
+}
+/*cards section*/
+.cards{
+  display: flex;
+ gap: 20px;
+ align-items: center;
+padding: 0 500px;
+}
+ 
+.card{
+text-align: center;
+  padding: 40px 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 1px rgba(166, 54, 54, 0.865);
+ height: 322px;
+ width: 300px;
+ 
+  
+  
+}
+.card img{
+  background: rgb(230, 53, 53);
+  padding: 10px;
+  height: 50;
+  width: 50;
+  border-radius: 50%;
+}
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #0b2a44;
+}
+.card p {
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.6;
 }
