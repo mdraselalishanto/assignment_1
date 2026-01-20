@@ -51,7 +51,7 @@ box-sizing: border-box;
 }
 /*hero section */
 .hero_banar{
-  background: url("/Images/assets/hero-bg.png");
+  background: url("/Images/assets/hero");
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
