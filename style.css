@@ -14,7 +14,7 @@ box-sizing: border-box;
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: < weight>;
   font-style: normal;
 }
 .btn{
@@ -51,7 +51,7 @@ box-sizing: border-box;
 }
 /*hero section */
 .hero_banar{
-  background-image:url(./hero.png);
+  background-image:url("./hero.png");
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
